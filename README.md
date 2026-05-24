@@ -1,154 +1,192 @@
 # Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-
-OmniData-Analyzer: Streamlit CSV &amp; JSON Explorer أومني داتا: مستكشف ومحلل ملفات CSV و JSON باستخدام Streamlit
-<div align="center">
-  <h1>📊 SmartInsight: Universal CSV & JSON Web-Based Data Analyzer</h1>
+<!-- ========================= -->
+<!-- HEADER (CENTERED ONLY)   -->
+<!-- ========================= -->
 
-
 <div align="center">
+  <h1>Universal CSV & JSON Web-Based Data Analyzer</h1>
   <h3>المحلل الذكي والشامل لملفات CSV و JSON عبر الويب</h3>
+
   <p>
     <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source Love">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </p>
+
+  <p>
+    <a href="#english-version">🇬🇧 English Version</a> |
+    <a href="#arabic-version">🇾🇪 النسخة العربية</a>
   </p>
 </div>
 
 <hr />
 
-<div align="center">
-  <a href="#english-version">🇬🇧 English Version</a> | 
-  <a href="#arabic-version">🇸🇦 النسخة العربية</a>
-</div>
-
-<hr />
+<!-- ========================= -->
+<!-- 🇬🇧 ENGLISH VERSION (LTR) -->
+<!-- ========================= -->
 
 <a name="english-version"></a>
+<div dir="ltr" align="left">
+
 ## 🇬🇧 English Version
 
 ### 🚀 Project Overview
 <p>
-  <strong>SmartInsight</strong> is an interactive, lightweight, open-source web application designed to simplify data exploration. Users can upload any standard <code>CSV</code> or <code>JSON</code> data file from their local laptop or phone to get instant structural analysis, dataset metrics, real-time previews, and complete missing value insights without writing a single line of code.
+  <strong>SmartInsight</strong> is an interactive, lightweight, open‑source web application designed to simplify data exploration. Users can upload any <code>CSV</code> or <code>JSON</code> file to instantly view structural analysis, dataset metrics, real‑time previews, and missing‑value insights — all without writing a single line of code.
 </p>
 
-### ❓ Why Do We Need Streamlit?
+### ❓ Why Streamlit?
 <p>
-  Traditionally, running a data analysis Python script requires downloading Python, setting up environments, and executing commands in terminal windows. 
+  Normally, running a Python data analysis script requires installing Python, setting up environments, and running commands in a terminal.
 </p>
 <p>
-  By integrating <strong>Streamlit</strong>, we transform this backend script into a beautiful, reactive, <strong>cloud-ready web application</strong>. Streamlit handles the web interface, file uploaders, and layout asynchronously, making the tool instantly accessible to anyone, on any computer or operating system (Mac, Windows, Linux, Mobile), through a simple web browser.
+  With <strong>Streamlit</strong>, this backend script becomes a beautiful, reactive, <strong>web application</strong>. Streamlit handles UI, file uploads, layout, and rendering — making the tool accessible on any device (Windows, Mac, Linux, Mobile) through a simple browser.
 </p>
 
 ### 📦 Required Libraries
 <ul>
-  <li><code>pandas</code> - For advanced data manipulation and file ingestion.</li>
-  <li><code>streamlit</code> - For serving the web application and interactive UI.</li>
+  <li><code>pandas</code> — Data manipulation and file ingestion</li>
+  <li><code>streamlit</code> — Web interface and interactive UI</li>
 </ul>
 
-### ⚙️ Local Installation & Running Steps
-<p>To run this project locally on your laptop (MacBook or Windows):</p>
-
+### ⚙️ Local Installation & Running
 <ol>
   <li>
-    <strong>Clone the repository or download the files:</strong>
+    <strong>Clone the repository:</strong>
     <pre><code>git clone https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-.git
 cd Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-</code></pre>
   </li>
+
   <li>
-    <strong>Install the required libraries:</strong>
+    <strong>Install dependencies:</strong>
     <pre><code>pip3 install pandas streamlit</code></pre>
   </li>
+
   <li>
-    <strong>Launch the application using Streamlit:</strong>
+    <strong>Run the Streamlit app:</strong>
     <pre><code>python3 -m streamlit run Dataset_Insight.py</code></pre>
-    <p><em>*Note: Make sure you are in the same folder directory where <code>Dataset_Insight.py</code> is saved before running this command. Your web browser will automatically open <code>http://localhost:8501</code> showing the live tool.</em></p>
+    <em>Your browser will open <code>http://localhost:8501</code> automatically.</em>
   </li>
 </ol>
 
-### 🧪 Test Datasets Included
-<p>To get started instantly, we have attached two sample datasets inside this repository for testing:</p>
+### 🧪 Included Test Datasets
 <ul>
-  <li><code>healthexp.csv</code>: Use this to test standard tabular comma-separated parsing.</li>
-  <li><code>price.json</code>: Use this to test structured object notation formatting.</li>
+  <li><code>healthexp.csv</code> — For CSV parsing tests</li>
+  <li><code>price.json</code> — For JSON structure tests</li>
 </ul>
 
-### 🤝 Open Source & Contributing
+### 🤝 Open Source & Contributions
 <p>
-  This is an <strong>open-source project</strong> created to provide mutual value to the global developer and data science community! Every contribution—whether fixing bugs, adding data visualizations, improving the UI, or localizing text—is highly welcomed.
+  This project is fully <strong>open‑source</strong> and contributions are highly welcome!  
+  Whether you want to fix bugs, improve UI, add visualizations, or enhance performance — your help is appreciated.
 </p>
+
 <ul>
-  <li>Feel free to <strong>Fork</strong> this project, create features, and submit a <strong>Pull Request</strong>.</li>
-  <li>Don't forget to <strong>Star ⭐</strong> this repository if you find it helpful!</li>
+  <li>Fork the repo and submit a Pull Request</li>
+  <li>Open Issues for ideas or bugs</li>
+  <li>Star ⭐ the project if you find it useful</li>
 </ul>
 
-### 🙋‍♂️ Need Help?
+### 💡 What Else Can This Tool Be Used For?
+<ul>
+  <li>AI dataset preprocessing</li>
+  <li>Business analytics dashboards</li>
+  <li>Data cleaning automation</li>
+  <li>Educational tools for teaching data science</li>
+  <li>CSV/JSON validation services</li>
+</ul>
+
+<p><strong>What else do YOU think this script can be used for?</strong>  
+Open an Issue and share your ideas!</p>
+
+### 🙋 Need Help?
 <p>
-  If you run into installation errors, terminal bugs, or need assistance adapting this code into your research or corporate projects, please <a href="https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-/issues">Open an Issue</a> here on GitHub or reach out directly. I am more than happy to help you get it running smoothly!
+  If you face installation issues or want to integrate this tool into your research or corporate workflow, feel free to <a href="https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-/issues">open an Issue</a>.
 </p>
+
+</div>
 
 <hr />
 
-<a name="arabic-version"></a>
-<div dir="rtl">
+<!-- ========================= -->
+<!-- 🇾🇪 ARABIC VERSION (RTL) -->
+<!-- ========================= -->
 
-## 🇸🇦 النسخة العربية
+<a name="arabic-version"></a>
+<div dir="rtl" align="right">
+
+## 🇾🇪 النسخة العربية
 
 ### 🚀 نظرة عامة على المشروع
 <p>
-  <strong>SmartInsight</strong> هو تطبيق ويب تفاعلي مفتوح المصدر مصمم لتبسيط استكشاف وتحليل البيانات. يتيح البرنامج للمستخدمين رفع ملفات البيانات بصيغ <code>CSV</code> أو <code>JSON</code> من أي جهاز محلي (كمبيوتر أو هاتف) للحصول على تحليل هيكلي فوري، مؤشرات إحصائية للبيانات، معاينة حية، وتقارير كاملة للقيم المفقودة دون الحاجة لكتابة كود برمجي واحد.
+  <strong>SmartInsight</strong> هو تطبيق ويب تفاعلي مفتوح المصدر مصمم لتبسيط تحليل البيانات. يمكنك رفع أي ملف <code>CSV</code> أو <code>JSON</code> للحصول على تحليل هيكلي فوري، مؤشرات إحصائية، معاينة مباشرة، وتقارير للقيم المفقودة — بدون كتابة أي كود.
 </p>
 
-### ❓ لماذا نحتاج إلى استخدام Streamlit؟
+### ❓ لماذا Streamlit؟
 <p>
-  في المعتاد، يتطلب تشغيل سكربت بايثون لتحليل البيانات تثبيت بايثون، إعداد بيئات عمل معقبلة، وتشغيل الأوامر عبر التيرمينال.
+  عادةً يتطلب تشغيل سكربت بايثون لتحليل البيانات تثبيت بايثون وإعداد بيئة عمل وتشغيل أوامر عبر التيرمينال.
 </p>
 <p>
-  من خلال دمج <strong>Streamlit</strong>، نقوم بتحويل الكود البرمجي الخلفي إلى <strong>تطبيق ويب تفاعلي وجاهز للسحاب</strong>. تتولى أداة Streamlit إدارة واجهة الويب، أزرار رفع الملفات، وتنسيق الصفحات بشكل متزامن، مما يجعل الأداة متاحة على الفور لأي شخص على أي نظام تشغيل (Mac, Windows, Linux, Mobile) عبر متصفح الويب فقط وبأعلى كفاءة.
+  باستخدام <strong>Streamlit</strong>، يتحول الكود إلى <strong>تطبيق ويب تفاعلي</strong> جاهز للعمل على أي جهاز (ويندوز، ماك، لينكس، جوال) عبر المتصفح فقط.
 </p>
 
 ### 📦 المكتبات المطلوبة
 <ul>
-  <li><code>pandas</code> - لمعالجة وقراءة وتحليل ملفات البيانات المختلفة.</li>
-  <li><code>streamlit</code> - لإنشاء الخادم المحلي وتوليد واجهة الويب التفاعلية.</li>
+  <li><code>pandas</code> — لمعالجة البيانات</li>
+  <li><code>streamlit</code> — لإنشاء واجهة الويب</li>
 </ul>
 
-### ⚙️ خطوات التثبيت والتشغيل المحلي
-<p>لتشغيل هذا التطبيق محلياً على جهازك الشخصي:</p>
-
+### ⚙️ خطوات التثبيت والتشغيل
 <ol>
   <li>
-    <strong>قم بتحميل المستودع أو استنساخه:</strong>
+    <strong>استنساخ المستودع:</strong>
     <pre><code dir="ltr">git clone https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-.git
 cd Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-</code></pre>
   </li>
+
   <li>
-    <strong>تثبيت المكتبات المطلوبة عبر التيرمينال:</strong>
+    <strong>تثبيت المكتبات:</strong>
     <pre><code dir="ltr">pip3 install pandas streamlit</code></pre>
   </li>
+
   <li>
-    <strong>تشغيل التطبيق باستخدام محرك Streamlit:</strong>
+    <strong>تشغيل التطبيق:</strong>
     <pre><code dir="ltr">python3 -m streamlit run Dataset_Insight.py</code></pre>
-    <p><em>*ملاحظة: تأكد من أنك تقف داخل المجلد الصحيح الذي يحتوي على ملف <code>Dataset_Insight.py</code> قبل تشغيل هذا الأمر. سيقوم المتصفح تلقائياً بفتح الرابط <code>http://localhost:8501</code> لتشغيل واجهة البرنامج.</em></p>
+    <em>سيتم فتح المتصفح تلقائياً على الرابط <code>http://localhost:8501</code>.</em>
   </li>
 </ol>
 
-### 🧪 ملفات جاهزة للاختبار والتجربة
-<p>لتجربة البرنامج فوراً، قمنا بإرفاق ملفين كعينة اختبار داخل المستودع:</p>
+### 🧪 ملفات جاهزة للاختبار
 <ul>
-  <li><code>healthexp.csv</code>: لاختبار قراءة وتحليل الجداول المنفصلة بفواصل.</li>
-  <li><code>price.json</code>: لاختبار قراءة وتفكيك البيانات الهيكلية بصيغة جيسون.</li>
+  <li><code>healthexp.csv</code> — لاختبار ملفات CSV</li>
+  <li><code>price.json</code> — لاختبار ملفات JSON</li>
 </ul>
 
-### 🤝 المشاركة والمساهمة المفتوحة (Open Source)
+### 🤝 المساهمة مفتوحة للجميع
 <p>
-  هذا المشروع <strong>مفتوح المصدر بالكامل</strong>، تم إنشاؤه لتقديم قيمة مضافة لمجتمع مطوري ومحللي البيانات! نرحب جداً بمشاركتكم وتطويرهم للمشروع سواء من خلال إصلاح الثغرات، إضافة رسومات بيانية جديدة، تحسين واجهة المستخدم، أو تعريب النصوص.
+  هذا المشروع <strong>مفتوح المصدر</strong> ونرحب بجميع المساهمات — سواء تحسينات، إصلاحات، إضافة ميزات، أو تطوير الواجهة.
 </p>
+
 <ul>
-  <li>يمكنك عمل <strong>Fork</strong> للمشروع، إضافة لمساتك، وإرسال <strong>Pull Request</strong>.</li>
-  <li>لا تنسى الضغط على زر <a href="https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-">Star ⭐</a> للمستودع إذا نال إعجابك!</li>
+  <li>قم بعمل Fork وإرسال Pull Request</li>
+  <li>افتح Issue لطرح فكرة أو مشكلة</li>
+  <li>ادعم المشروع بزر ⭐</li>
 </ul>
 
-### 🙋‍♂️ هل تحتاج إلى مساعدة؟
+### 💡 ما الاستخدامات الأخرى الممكنة؟
+<ul>
+  <li>معالجة بيانات الذكاء الاصطناعي</li>
+  <li>لوحات تحكم تحليلية</li>
+  <li>تنظيف البيانات تلقائياً</li>
+  <li>أداة تعليمية لعلوم البيانات</li>
+  <li>خدمة فحص CSV/JSON</li>
+</ul>
+
+<p><strong>برأيك… ما الاستخدامات الأخرى لهذا السكربت؟</strong>  
+شاركنا أفكارك عبر Issues.</p>
+
+### 🙋‍♂️ هل تحتاج مساعدة؟
 <p>
-  إذا واجهتك أي مشكلة أثناء التثبيت، أو ظهرت لك أخطاء في التيرمينال، أو كنت بحاجة لمساعدة مخصصة لدمج هذا الكود في أبحاثك الأكاديمية أو مشاريعك التجارية، يرجى <a href="https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-/issues">فتح تذكرة (Open an Issue)</a> هنا على جيتهاب أو التواصل معي مباشرة. سأكون سعيداً جداً بتقديم الدعم الكامل لك!
+  لأي مشكلة أو استفسار، يمكنك فتح <a href="https://github.com/mun9uk-ship-it/Universal-CSV-JSON-Web-Based-Data-Analyzer-CSV-JSON-/issues">Issue</a> وسأكون سعيداً بالمساعدة.
 </p>
 
 </div>
