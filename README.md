@@ -4,7 +4,6 @@
 <!-- ========================= -->
 
 <div align="center">
-  <h1>Universal CSV & JSON Web-Based Data Analyzer</h1>
   <h3>المحلل الذكي والشامل لملفات CSV و JSON عبر الويب</h3>
 
   <p>
